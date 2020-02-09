@@ -42,7 +42,14 @@
           193,
           90,
           90
-        ]
+        ],
+        "text-halo-color": [
+          "rgb",
+          255,
+          255,
+          255
+        ],
+        "text-halo-width": 1
       },
       "source": "hokenjo",
       "source-layer": "hokenjo",
@@ -54,7 +61,7 @@
         "text-anchor": "top",
         "text-field": "{P28_006}",
         "text-font": [
-          "NotoSansCJKjp-Regular"
+          "NotoSansCJKjp-Medium"
         ],
         "text-offset": [
           0,
@@ -69,7 +76,14 @@
           193,
           90,
           90
-        ]
+        ],
+        "text-halo-color": [
+          "rgb",
+          255,
+          255,
+          255
+        ],
+        "text-halo-width": 1
       },
       "source": "hokenjo",
       "source-layer": "hokenjo",
