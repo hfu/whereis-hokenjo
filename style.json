@@ -1,0 +1,97 @@
+{
+  "glyphs": "https://hfu.github.io/noto-jp/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "pale",
+      "source": "gsi",
+      "type": "raster"
+    },
+    {
+      "id": "hokenjo",
+      "maxzoom": 22,
+      "paint": {
+        "circle-color": [
+          "rgb",
+          193,
+          90,
+          90
+        ]
+      },
+      "source": "hokenjo",
+      "source-layer": "hokenjo",
+      "type": "circle"
+    },
+    {
+      "id": "name",
+      "layout": {
+        "text-anchor": "bottom",
+        "text-field": "{P28_005}",
+        "text-font": [
+          "NotoSansCJKjp-Bold"
+        ],
+        "text-offset": [
+          0,
+          -1
+        ]
+      },
+      "maxzoom": 22,
+      "minzoom": 12,
+      "paint": {
+        "text-color": [
+          "rgb",
+          193,
+          90,
+          90
+        ]
+      },
+      "source": "hokenjo",
+      "source-layer": "hokenjo",
+      "type": "symbol"
+    },
+    {
+      "id": "address",
+      "layout": {
+        "text-anchor": "top",
+        "text-field": "{P28_006}",
+        "text-font": [
+          "NotoSansCJKjp-Regular"
+        ],
+        "text-offset": [
+          0,
+          1
+        ]
+      },
+      "maxzoom": 22,
+      "minzoom": 13,
+      "paint": {
+        "text-color": [
+          "rgb",
+          193,
+          90,
+          90
+        ]
+      },
+      "source": "hokenjo",
+      "source-layer": "hokenjo",
+      "type": "symbol"
+    }
+  ],
+  "sources": {
+    "gsi": {
+      "attribution": "地理院タイル",
+      "tiles": [
+        "https://maps.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png"
+      ],
+      "type": "raster"
+    },
+    "hokenjo": {
+      "attribution": "国土数値情報　国・都道府県の機関データ（平成25年度; 国土交通省）",
+      "maxzoom": 14,
+      "tiles": [
+        "https://hfu.github.io/whereis-hokenjo/tiles/{z}/{x}/{y}.pbf"
+      ],
+      "type": "vector"
+    }
+  },
+  "version": 8
+}
